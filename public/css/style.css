@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: "Trebuchet MS", sans-serif;
+    color: #7a1838;
+    background: linear-gradient(135deg, #fff5ef, #fce9df, #fff2e8);
+    background-image:
+        linear-gradient(rgba(143, 35, 71, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(143, 35, 71, 0.08) 1px, transparent 1px),
+        linear-gradient(135deg, #fff5ef, #fce9df, #fff2e8);
+    background-size: 32px 32px, 32px 32px, 100% 100%;
+    background-attachment: fixed;
+}
+
+.page-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #f4d03f;
+    text-shadow: 3px 3px 0px #8f2347;
+    margin: 25px 0 15px;
+}
+
+.container {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    flex: 1;
+}
+
+header {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 18px;
+    margin: 0 3px;
+    color: #8f2347;
+    background-color: #f6c5bd;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 18px;
+    transition: 0.2s;
+}
+
+nav a:hover,
+nav a.active {
+    background-color: #8f2347;
+    color: white;
+    box-shadow: 0 4px 10px #f4d03f;
+    transform: translateY(-2px);
+}
+
+.home-wrapper {
+    width: 90%;
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: center;
+    flex: 1;
+}
+
+.home-content {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.home-gif {
+    display: block;
+    margin: 15px auto;
+    max-width: 200px;
+    background: transparent;
+}
+
+.card {
+    padding: 25px;
+    background-color: #fffaf7;
+    border-radius: 18px;
+    box-shadow: 6px 6px 0px #8f2347;
+    margin-top: 15px;
+}
+
+.card h2 {
+    color: #8f2347;
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+    background-color: #fffaf7;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #8f2347;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid #efc5bd;
+}
+
+tr:hover {
+    background-color: #fce5df;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 15px;
+    color: #8f2347;
+    font-size: 15px;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(143, 35, 71, 0.25);
+    margin-top: auto;
+}

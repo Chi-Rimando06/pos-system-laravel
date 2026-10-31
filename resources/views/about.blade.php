@@ -25,13 +25,13 @@
 
         <div class="card">
             <h2>Project Overview</h2>
-            <p>Developed as part of Technical Formative Assessment (TFA5) for Web Systems Technologies. It rebuilds core MVC patterns using the Laravel framework.</p>
+            <p>Developed as part of Technical Formative Assessment (TFA6) for Web Systems Technologies. It upgrades the core MVC architecture from static arrays to a robust database-driven system.</p>
 
             <h3>Core Features</h3>
             <ul>
-                <li>Modular Routing & Controller Logic</li>
-                <li>Blade Templating Engine with Directives</li>
-                <li>Static Data Collections via PHP Arrays</li>
+                <li>Database Migrations & Schema Definitions</li>
+                <li>Database Seeders & Initial Data Population</li>
+                <li>Eloquent ORM Models & Database-Driven Controllers</li>
             </ul>
         </div>
     </div>

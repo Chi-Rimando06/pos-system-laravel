@@ -31,6 +31,7 @@
                         <th>ID</th>
                         <th>Name</th>
                         <th>Email</th>
+                        <th>Contact Number</th>
                     </tr>
                 </thead>
                 <tbody>

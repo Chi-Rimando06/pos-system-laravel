@@ -36,9 +36,9 @@
                 <tbody>
                     @foreach($users as $user)
                     <tr>
-                        <td>{{ $user['id'] }}</td>
-                        <td>{{ $user['username'] }}</td>
-                        <td>{{ $user['role'] }}</td>
+                        <td>{{ $user->id }}</td>
+                        <td>{{ $user->username }}</td>
+                        <td>{{ $user->full_name }}</td>
                     </tr>
                     @endforeach
                 </tbody>

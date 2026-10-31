@@ -33,7 +33,7 @@
     </div>
 
     <footer>
-        &copy; 2026 POS System - Laravel Edition
+        &copy; 2026 Chi | Chiriemie Keith G. Rimando | TC37
     </footer>
 
 </body>

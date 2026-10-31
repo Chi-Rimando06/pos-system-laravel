@@ -31,13 +31,13 @@
             <ul>
                 <li>Modular Routing & Controller Logic</li>
                 <li>Blade Templating Engine with Directives</li>
-                <li>Static Data Collections via PHP Arrays[cite: 6]</li>
+                <li>Static Data Collections via PHP Arrays</li>
             </ul>
         </div>
     </div>
 
     <footer>
-        &copy; 2026 POS System - Laravel Edition
+        &copy; 2026 Chi | Chiriemie Keith G. Rimando | TC37
     </footer>
 
 </body>
